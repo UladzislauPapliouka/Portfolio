@@ -3,6 +3,7 @@ import informationBlockStyles from "./InformationBlock.module.scss";
 import {Container} from "../Conteiners/Container";
 import photo from "./../assets/PHOTOS/Untitled-1.png";
 import {PropertyList} from "./PropertyList";
+import {Button} from "./Button";
 export const InformationBlock: FC = () => {
   const properties = [
     {
@@ -41,6 +42,7 @@ export const InformationBlock: FC = () => {
                 " wordpress. I love to talk with you about our unique."
               }</span>
               <PropertyList properties={properties}/>
+              <Button>Download CV</Button>
             </div>
           </div>
         </div>

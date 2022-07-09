@@ -1,0 +1,10 @@
+@import "src/SCSS/variables";
+.mainButton{
+  padding: 5px 20px 5px 20px;
+  background: $primaryColor;
+  height: 40px;
+  color: $firstBackgroundColor;
+  border: none;
+  margin-top: 10px;
+  font-size: 14px;
+}
