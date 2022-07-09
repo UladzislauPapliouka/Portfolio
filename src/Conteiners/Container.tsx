@@ -1,7 +1,7 @@
-import React, {DOMElement, FC, ReactElement} from "react";
+import React, {FC, ReactElement} from "react";
 import containerStyles from "./Container.module.scss";
 interface Props {
-    children?: DOMElement<any, any>[] | ReactElement[] | string[] | number[]
+    children?: ReactElement[] | ReactElement
 }
 
 export const Container: FC <Props> = ({

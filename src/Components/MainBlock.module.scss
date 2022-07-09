@@ -1,7 +1,6 @@
 @import "src/SCSS/variables";
 .mainBlock{
   position: relative;
-  min-height: 100vh;
   color: $primaryColor;
   & > div {
     flex-direction: column;

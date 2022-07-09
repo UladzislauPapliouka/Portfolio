@@ -1,0 +1,11 @@
+@import "src/SCSS/variables";
+.propList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+  margin-top: 20px;
+  width: 100%;
+  & > div > span:first-child {
+    color: $primaryColor;
+  }
+}
