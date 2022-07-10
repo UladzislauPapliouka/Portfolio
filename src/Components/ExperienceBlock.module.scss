@@ -1,0 +1,7 @@
+@import "src/SCSS/variables";
+
+.expBlock{
+  & > div {
+   gap: 50px;
+  }
+}

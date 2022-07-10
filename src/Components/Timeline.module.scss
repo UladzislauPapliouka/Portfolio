@@ -1,0 +1,37 @@
+@import "src/SCSS/variables";
+
+.timeline {
+  & > span:first-child + div {
+    margin-top: 30px;
+  }
+  & > div {
+    position: relative;
+    padding: 20px 0 60px 30px;
+    border-left: $primaryColor 1px solid;
+    border-top: $primaryColor 1px solid;
+    min-width: 300px;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 88%;
+      height: 1px;
+      background-color: $firstBackgroundColor;
+      left: 12%;
+      top: -1px
+    }
+    & > span:first-child {
+      position: absolute;
+      top: -15px;
+      left: 12%;
+      border: 1px solid $primaryColor;
+      padding: 2px;
+      width: fit-content;
+    }
+    & > span:nth-child(2) {
+      font-weight: 700;
+    }
+  }
+  & > div:last-child {
+    border-left: none;
+  }
+}
