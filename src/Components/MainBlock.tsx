@@ -1,4 +1,4 @@
-import React, {FC} from "react";
+import React, {FC, useState} from "react";
 import mainLBlockStyles from "./MainBlock.module.scss";
 import {Container} from "../Conteiners/Container";
 import ReactTypingEffect from "react-typing-effect";
@@ -8,6 +8,11 @@ export const MainBlock: FC = () => {
     "Front-End Developer.",
     "Based in Minsk",
   ];
+  const [scroll, setScroll] = useState(0);
+  window.onscroll = () => {
+    setScroll(window.scrollY);
+  };
+
   return (
     <div className={mainLBlockStyles.mainBlock}>
       <Container>
@@ -22,7 +27,7 @@ export const MainBlock: FC = () => {
           typingDelay={100}
           eraseDelay={100}
         />
-        <img src={mouseSVG}/>
+        {scroll < 50 ? <img src={mouseSVG}/> : <div></div>}
       </Container>
     </div>
   );
