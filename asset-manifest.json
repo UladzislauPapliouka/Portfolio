@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.86457651.css",
+    "main.js": "/Portfolio/static/js/main.29ce37cc.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Untitled-1.png": "/Portfolio/static/media/Untitled-1.63ec55b313e8ada7029b.png",
+    "static/media/RobotoMono-VariableFont_wght.ttf": "/Portfolio/static/media/RobotoMono-VariableFont_wght.9ec32603cb86699d7770.ttf",
+    "static/media/icons8-github.svg": "/Portfolio/static/media/icons8-github.4cd3a2bc790226c346ae943ec1622139.svg",
+    "static/media/icons8-телеграмма-app.svg": "/Portfolio/static/media/icons8-телеграмма-app.b0589b5e724dd92cc132ddb6a0e049d9.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/icons8-линкедин.svg": "/Portfolio/static/media/icons8-линкедин.ada11cda991129bc91b79d2c7cee1066.svg",
+    "static/media/mouse.svg": "/Portfolio/static/media/mouse.5021980d19bb7808c59979d2301709f9.svg",
+    "main.86457651.css.map": "/Portfolio/static/css/main.86457651.css.map",
+    "main.29ce37cc.js.map": "/Portfolio/static/js/main.29ce37cc.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86457651.css",
+    "static/js/main.29ce37cc.js"
+  ]
+}
