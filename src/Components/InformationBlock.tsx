@@ -4,10 +4,11 @@ import {Container} from "../Conteiners/Container";
 import photo from "./../assets/PHOTOS/Untitled-1.png";
 import {PropertyList} from "./PropertyList";
 import {Button} from "./Button";
+
 export const InformationBlock: FC = () => {
   const properties = [
     {
-      prop: "25",
+      prop: "19",
       propName: "Age",
     },
     {
@@ -36,12 +37,11 @@ export const InformationBlock: FC = () => {
             <img src={photo} alt=""/>
             <div className={informationBlockStyles.description}>
               <span>{
-                "Hello! I’m John Doe. Web designer from USA," +
-                " California, San Francisco. I have rich experience" +
-                " in web site design and building, also I am good at" +
-                " wordpress. I love to talk with you about our unique."
+                "Hello! I’m Uladzislau Papliouka. Web developer from Belarus," +
+                "I have rich experience" + " in web site development. I love to talk with you about our unique."
               }</span>
               <PropertyList properties={properties}/>
+              {/* TODO: add link to CV */}
               <Button>Download CV</Button>
             </div>
           </div>
