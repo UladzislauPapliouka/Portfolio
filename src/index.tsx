@@ -6,6 +6,7 @@ import {MainBlock} from "./Components/MainBlock";
 import {InformationBlock} from "./Components/InformationBlock";
 import {ExperienceBlock} from "./Components/ExperienceBlock";
 import {SkillsBlock} from "./Components/SkillsBlock";
+import {Footer} from "./Components/Footer";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
@@ -16,6 +17,7 @@ root.render(
       <InformationBlock/>
       <ExperienceBlock/>
       <SkillsBlock/>
+      <Footer/>
     </React.StrictMode>,
 );
 
