@@ -1,0 +1,17 @@
+@import "src/SCSS/variables";
+
+.skillBlock {
+  width: 140px;
+  height: 140px;
+  padding: 8px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  border: 10px solid $primaryColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & > .skillName {
+    text-align: center;
+  }
+}

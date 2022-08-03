@@ -1,0 +1,14 @@
+.skillsBlock{
+  position: relative;
+  & > div {
+    max-width: 1000px;
+    flex-direction: column;
+    gap: 20px;
+    & > .skillsContainer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: space-around;
+    }
+  }
+}

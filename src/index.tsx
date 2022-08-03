@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import {MainBlock} from "./Components/MainBlock";
 import {InformationBlock} from "./Components/InformationBlock";
 import {ExperienceBlock} from "./Components/ExperienceBlock";
+import {SkillsBlock} from "./Components/SkillsBlock";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
@@ -14,6 +15,7 @@ root.render(
       <MainBlock/>
       <InformationBlock/>
       <ExperienceBlock/>
+      <SkillsBlock/>
     </React.StrictMode>,
 );
 
