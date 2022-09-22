@@ -9,7 +9,7 @@
     padding: 20px 0 60px 30px;
     border-left: $primaryColor 1px solid;
     border-top: $primaryColor 1px solid;
-    min-width: 300px;
+    min-width: 400px;
     &::before {
       content: "";
       position: absolute;
@@ -25,7 +25,6 @@
       left: 12%;
       border: 1px solid $primaryColor;
       padding: 2px;
-      width: fit-content;
     }
     & > span:nth-child(2) {
       font-weight: 700;
