@@ -7,18 +7,20 @@ import {InformationBlock} from "./Components/InformationBlock";
 import {ExperienceBlock} from "./Components/ExperienceBlock";
 import {SkillsBlock} from "./Components/SkillsBlock";
 import {Footer} from "./Components/Footer";
+import {WorkExamplesBlock} from "./Components/WorkExamplesBlock";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
 );
 root.render(
-    <React.StrictMode>
-      <MainBlock/>
-      <InformationBlock/>
-      <ExperienceBlock/>
-      <SkillsBlock/>
-      <Footer/>
-    </React.StrictMode>,
+  <React.StrictMode>
+    <MainBlock/>
+    <InformationBlock/>
+    <ExperienceBlock/>
+    <WorkExamplesBlock/>
+    <SkillsBlock/>
+    <Footer/>
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function
