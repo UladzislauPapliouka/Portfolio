@@ -42,7 +42,8 @@ export const InformationBlock: FC = () => {
               }</span>
               <PropertyList properties={properties}/>
               {/* TODO: add link to CV */}
-              <Button>Download CV</Button>
+              <Button onClick={() => window.open("https://drive.google.com/file/d/1W-ta0Xh8bdxqT5oCT1Dfo6741RI_esN9/view?usp=sharing", "_blank")}>Download
+                CV</Button>
             </div>
           </div>
         </div>
