@@ -13,6 +13,7 @@ export const SkillsBlock: FC = () => {
           <Skill skillName={"JS / TS"}/>
           <Skill skillName={"CSS / SASS"}/>
           <Skill skillName={"React / Redux"}/>
+          <Skill skillName={"MaterialUI"}/>
           <Skill skillName={"VueJS"}/>
           <Skill skillName={"RestAPI"}/>
           <Skill skillName={"GIT"}/>
