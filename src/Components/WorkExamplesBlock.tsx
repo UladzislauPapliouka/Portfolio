@@ -5,7 +5,7 @@ import {Work} from "./Work";
 import tickTackToe from "../assets/PHOTOS/tic-tac-toe.png";
 import colorsClone from "../assets/PHOTOS/colors.png"
 import colorsPanel from "../assets/PHOTOS/colorPanel.png"
-
+import Slider from "../assets/PHOTOS/slider.png"
 
 
 export const WorkExamplesBlock: FC = () => {  
@@ -16,6 +16,7 @@ export const WorkExamplesBlock: FC = () => {
         <Work title={"Tick-tack-toe VueJS"} src={tickTackToe} link={"https://uladzislaupapliouka.github.io/tick-tack-toe-vuejs/"}/>
         <Work title={"Colors Clone"} src={colorsClone} link={"https://uladzislaupapliouka.github.io/color-clone/"}/>
         <Work title={"Color Panel"} src={colorsPanel} link={"https://uladzislaupapliouka.github.io/color-board/"}/>
+        <Work title={"Slider"} src={Slider} link={"https://uladzislaupapliouka.github.io/slider/"}/>
       </div>
     </Container>
   );
